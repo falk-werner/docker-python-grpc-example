@@ -56,6 +56,7 @@ docker run -it --rm -v ./run:/var/run python-grpc-greeter greet Bob
 
 - [gRPC](https://grpc.io/)
 - [gRPC Python Quick start](https://grpc.io/docs/languages/python/quickstart/)
-- [gRPC Python Examples on github](https://github.com/grpc/grpc/tree/master/examples/python)
+- [gRPC Python Examples on GitHub](https://github.com/grpc/grpc/tree/master/examples/python)
 - [Docker multi-platform build](https://docs.docker.com/build/building/multi-platform/#build-multi-platform-images)
-- [Github Docker Build and Push Action](https://github.com/marketplace/actions/build-and-push-docker-images)
+- [GitHub Docker Build and Push Action](https://github.com/marketplace/actions/build-and-push-docker-images)
+- [Publishing Images to GitHub Packages](https://docs.github.com/en/actions/tutorials/publish-packages/publish-docker-images#publishing-images-to-github-packages)
