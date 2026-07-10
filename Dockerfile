@@ -3,7 +3,7 @@ FROM python:3.14-alpine AS builder
 RUN python3 -m pip install grpcio grpcio-tools
 
 WORKDIR /app
-COPY * /app
+COPY app /app
 RUN python3 -m grpc_tools.protoc \
     -I . \
     --python_out=. \
