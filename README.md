@@ -1,3 +1,5 @@
+[![Build](https://github.com/falk-werner/docker-python-grpc-example/actions/workflows/build.yml/badge.svg)](https://github.com/falk-werner/docker-python-grpc-example/actions/workflows/build.yml)
+
 # Docker Python gRPC Example
 
 This repository contains an example how to use gRPC in a dockerized Python application.
@@ -6,6 +8,15 @@ This repository contains an example how to use gRPC in a dockerized Python appli
 > This project builds an arm64 image by default.
 > To build for other platforms change the `PLATFORM` variable in the 
 > [build.sh](buildsh) script.
+
+## Pull Image from GitHub Packages
+
+Instead of building the image, you can pull it from 
+[GitHub Packages](https://github.com/falk-werner/docker-python-grpc-example/pkgs/container/python-grpc-greeter).
+
+```bash
+docker pull --platform=linux/arm64 ghcr.io/falk-werner/python-grpc-greeter:latest
+```
 
 ## Build
 
